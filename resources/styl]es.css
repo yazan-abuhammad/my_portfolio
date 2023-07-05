@@ -135,6 +135,7 @@ color: red;
 
 .Project{
     background-color: #050505;
+    width: 100%;
 }
 
 
@@ -145,9 +146,7 @@ color: red;
 }
 .pro{
     display: block;
-    
-    width: 15rem;
-    height: 15rem;
+    width: 15%;
    
 }
 
