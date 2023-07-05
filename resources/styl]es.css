@@ -143,19 +143,19 @@ color: red;
 .Projects{
     
     display: flex;
-    padding-left: 10%;
     
-    justify-content: space-between;
+    
+    justify-content: space-evenly;
 }
 @media (min-width: 280px) and (max-width: 1000px){
     .Projects{
-        flex-direction: column !important ;
-        justify-content: center;
+        flex-direction: column  !important ;
+        align-items: center;
     }
 }
 .pro{
     
-    width: 100%;
+    width: 60vmin;
    
 }
 
@@ -272,7 +272,7 @@ to {background-position: -100px 0px;background-size:2750px;}
 }
 .fig{
     text-align: center;
-    padding-right: 15%;
+    padding-right: 7%;
 }
 .skillitem {
 font-size:15vmin;
